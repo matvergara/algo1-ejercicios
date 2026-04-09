@@ -1,0 +1,2 @@
+40. Definir una clase como generic por un lado, y como su correspondiente no generic (raw type) por otro. Intente utilizar la clase genérica como raw type. ¿Qué conclusiones saca?
+ Si intentamos utilizar una clase generics como raw type (sin especificar el tipo) se genera un warning.

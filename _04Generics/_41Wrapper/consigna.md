@@ -1,0 +1,1 @@
+41) Definir la clase genérica Wrapper<T>, que contenga un atributo de la clase T. Definir métodos getters, setters y un visualizador por standard output que deleguen en métodos del atributo.
