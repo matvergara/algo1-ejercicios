@@ -9,7 +9,7 @@ public class Hora {
     public Hora(int a, int b, int c){hora = a; min = b; seg = c;}
 
     public void visualizar(){
-        System.out.printf("%02d:%02d:%02d%n", this.hora, this.min, this.seg);
+        System.out.printf("Hora actual - %02d:%02d:%02d%n", this.hora, this.min, this.seg);
     }
 
     public static Hora sumaValida(int s1, int s2, int s3){
