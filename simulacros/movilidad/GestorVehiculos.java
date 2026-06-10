@@ -4,8 +4,12 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class GestorVehiculos {
-    private ArrayList<Vehiculo> flotaVehiculos = new ArrayList<>();
+    private ArrayList<Vehiculo> flotaVehiculos;
 
+
+    public GestorVehiculos() {
+        this.flotaVehiculos = new ArrayList<Vehiculo>();
+    }
 
     public void cargarVehiculo(Vehiculo vehiculo){
         flotaVehiculos.add(vehiculo);
